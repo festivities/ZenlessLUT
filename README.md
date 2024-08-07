@@ -24,7 +24,7 @@
 
 ## Usage with PixelsWorld
 
-1. Download the game's internal LUT file [here]. *Take note that this is not a traditional LUT - it's hard to explain but you can't use it as if it was any other LUT for filmography.*
+1. Download the game's internal LUT file [here](https://github.com/festivities/ZenlessLUT/blob/main/InternalLut_Char_1024x32.png). *Take note that this is not a traditional LUT - it's hard to explain but you can't use it as if it was any other LUT for filmography.*
 
 2. Drop the `ZenlessLUT.lua` file into the same directory as your `.aep` project file.
 
