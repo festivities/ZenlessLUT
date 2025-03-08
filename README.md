@@ -28,7 +28,7 @@
 
 2. In your Adobe After Effects project, apply the `PixelsWorld` effect onto the layer you want to apply ZenlessLUT to.
 
-3. Set the `Language` parameter in PixelsWorld to `GLSL` and click on `Edit`. With `ZenlessLUT.glsl` open in a separate text editor, copy-paste the code onto the `World formula` editor. Once done, head onto the first `Layer` parameter and set it to the imported LUT. Control the strength of the LUT with the first `Slider` parameter.
+3. Set the `Language` parameter in PixelsWorld to `GLSL` and click on `Edit`. With `ZenlessLUT.glsl` open in a separate text editor, copy-paste the code onto the `World formula` editor. Once done, head onto the first `Layer` parameter and set it to the imported LUT. Control the strength of the LUT with the first `Slider` parameter. **Be sure to set the `Mipmap filter` parameter of the effect to `None`.**
 
 4. If you have issues with flickering visuals/crashing, try turning off Multi-Frame Rendering in Edit -> Preferences -> Memory & Performance.
 
