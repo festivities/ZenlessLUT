@@ -26,9 +26,9 @@
 
 1. Download the game's internal LUT file [here](https://github.com/festivities/ZenlessLUT/blob/main/InternalLut_Char_1024x32.png). *Take note that this is not a traditional LUT - it's hard to explain but you can't use it as if it was any other LUT for filmography.*
 
-2. Drop the `ZenlessLUT.lua` file into the same directory as your `.aep` project file.
+2. In your Adobe After Effects project, apply the `PixelsWorld` effect onto the layer you want to apply ZenlessLUT to.
 
-3. Import your LUT file into the same composition you are going to use it on. Once you load the `Lua load local code` preset in PixelsWorld and replace `MyCode.lua` with `ZenlessLUT.lua`, head onto the first `Layer` parameter and set it to the imported LUT. Control the strength of the LUT with the first `Slider` parameter.
+3. Set the `Language` parameter in PixelsWorld to `GLSL` and click on `Edit`. With `ZenlessLUT.glsl` open in a separate text editor, copy-paste the code onto the `World formula` editor. Once done, head onto the first `Layer` parameter and set it to the imported LUT. Control the strength of the LUT with the first `Slider` parameter.
 
 4. If you have issues with flickering visuals/crashing, try turning off Multi-Frame Rendering in Edit -> Preferences -> Memory & Performance.
 
